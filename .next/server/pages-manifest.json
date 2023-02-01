@@ -1,7 +1,12 @@
 {
+  "/404": "pages/404.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
+  "/forgot-password": "pages/forgot-password.js",
+  "/": "pages/index.js",
+  "/reset-password": "pages/reset-password.js",
+  "/sample": "pages/sample.js",
   "/signin": "pages/signin.js",
-  "/404": "pages/404.js"
+  "/signup": "pages/signup.js"
 }
