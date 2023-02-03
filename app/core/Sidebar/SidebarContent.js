@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import {Menu} from "antd";
+import {Menu, Button} from "antd";
 import Link from "next/link";
 
 import {useRouter} from 'next/router'
@@ -43,31 +43,65 @@ const SidebarContent = () => {
     dispatch(setPathName(router.pathname))
   }, [router.pathname]);
 
-  const selectedKeys = router.pathname.substr(1) || 'sample';
+  const selectedKeys = router.pathname.substr(1) || 'dashboard';
   const defaultOpenKeys = selectedKeys.split('/')[1];
+
+  console.log(defaultOpenKeys);
+  console.log(selectedKeys);
 
   return (
     <React.Fragment>
       <SidebarLogo/>
       <div className="gx-sidebar-content">
-        <div className={`gx-sidebar-notifications ${getNoHeaderClass(navStyle)}`}>
-          <UserProfile/>
-          <AppsNavigation/>
-        </div>
+       
+       
         <CustomScrollbars className="gx-layout-sider-scrollbar">
+        <div style={{margin: "0px 20px 12px 20px"}}>
+            <Button className="gx-mb-0 design-button" style={{background: "#D3F36B", border: "none"}} htmlType="button">
+              + Lorem ipsum
+            </Button>
+          </div>
           <Menu
+          style={{background: "#F9FAF5"}}
             defaultOpenKeys={[defaultOpenKeys]}
             selectedKeys={[selectedKeys]}
             theme={themeType === THEME_TYPE_LITE ? 'lite' : 'dark'}
             mode="inline">
 
-            <Menu.Item key="sample">
-              <Link href="/sample">
-                <a><i className="icon icon-dasbhoard"/><span>Sample</span></a>
+          
+
+            <Menu.Item key="dashboard">
+              <Link href="/dashboard">
+                <a><i className="icon icon-widgets"/><span>Dashboard</span></a>
+              </Link>
+            </Menu.Item>
+
+            
+            <Menu.Item key="test">
+              <Link href="/test">
+                <a><i className="icon icon-widgets"/><span>Page 2</span></a>
+              </Link>
+            </Menu.Item>
+
+            
+            <Menu.Item key="sample2">
+              <Link href="/sample2">
+                <a><i className="icon icon-widgets"/><span>Page 3</span></a>
+              </Link>
+            </Menu.Item>
+
+            
+            <Menu.Item key="sample3">
+              <Link href="/sample3">
+                <a><i className="icon icon-widgets"/><span>Page 4</span></a>
               </Link>
             </Menu.Item>
           </Menu>
         </CustomScrollbars>
+        <div className={`gx-sidebar-notifications ${getNoHeaderClass(navStyle)}`}>
+          <UserProfile/>
+          {/* <AppsNavigation/> */}
+        </div>
       </div>
     </React.Fragment>
   );

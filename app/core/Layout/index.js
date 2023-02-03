@@ -142,7 +142,7 @@ const AppLayout = ({children}) => {
       if (!authUser && !isUnRestrictedRoute(router.pathname)) {
         router.push('/signin').then(r => r);
       } else if (authUser && isUnRestrictedRoute(router.pathname)) {
-        router.push('/').then(r => r);
+        router.push('/dashboard').then(r => r);
       }
     }
   }, [authUser, isLoadingUser, router.pathname]);
@@ -162,11 +162,11 @@ const AppLayout = ({children}) => {
           <div className="gx-main-content-wrapper">
             {children}
           </div>
-          <Footer>
+          {/* <Footer>
             <div className="gx-layout-footer-content">
               Copyright Company Name © {today.getFullYear()}
             </div>
-          </Footer>
+          </Footer> */}
         </Content>
       </Layout>
     </Layout>

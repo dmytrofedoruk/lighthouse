@@ -47,7 +47,7 @@ const SidebarLogo = () => {
         {navStyle === NAV_STYLE_NO_HEADER_MINI_SIDEBAR && width >= TAB_SIZE ?
           <img alt="lo" src={("/images/w-logo.png")}/> :
           themeType === THEME_TYPE_LITE ?
-            <img alt="logo1" src={("/images/logo-white.png")}/> :
+            <img alt="logo1" style={{maxWidth: "82%"}} src={("/images/logo.png")}/> :
             <img alt="logo2" src={("/images/logo.png")}/>}
         </a>
       </Link>

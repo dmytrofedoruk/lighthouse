@@ -56,14 +56,14 @@ const SignIn = (props) => {
               </Form.Item>
               <Form.Item
                 style={{fontWeight: "500"}}
-                // initialValue="demo#123"
+                initialValue="demo#123"
                 label="Password"
                 rules={[{required: true, message: 'Please input your Password!'}]} name="password">
                 <Input style={{borderRadius: "22px"}} type="password" placeholder="Password"/>
               </Form.Item>
               <Form.Item valuePropName="checked">
                 <Checkbox className="gx-text-light">Remember me</Checkbox>
-                <Link href="/forgot-password">
+                <Link href="/signin">
                   <a className="gx-login-form-forgot gx-text-light" style={{float: "right"}}>Forgot password?</a></Link>
               </Form.Item>
               <Form.Item>

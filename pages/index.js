@@ -1,12 +1,12 @@
 import React from 'react';
 import SignInPage from "./signin";
 import {useAuth} from "../util/use-auth";
-import SamplePage from "./sample";
+import Dashboard from "./dashboard";
 
 const homePage = () => {
   const {authUser} = useAuth();
 
-  return authUser ? <SamplePage/> : <SignInPage/>;
+  return authUser ? <Dashboard/> : <SignInPage/>;
 }
 
 export default homePage;

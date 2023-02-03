@@ -32549,13 +32549,14 @@ h6,
   transition: all 0.2s ease;
 }
 .ant-layout-sider {
-  background-color: #fffffc;
+  background-color: #F9FAF5;
   color: #545454;
   flex: 0 0 auto !important;
   max-width: none !important;
   min-width: 10px !important;
   width: 280px !important;
   overflow: hidden;
+  border-right: 1px solid lightgrey;
 }
 @media screen and (max-width: 1366px) {
   .ant-layout-sider {
@@ -32586,8 +32587,8 @@ h6,
   color: #038fdd;
 }
 .gx-layout-sider-header {
-  padding: 10px 30px 10px 70px;
-  height: 72px;
+  padding: 26px 30px 30px 70px;
+  height: 120px;
   -webkit-box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.08);
   -moz-box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.08);
   box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.08);
@@ -32663,7 +32664,7 @@ h6,
   background-color: transparent;
 }
 .gx-custom-sidebar .gx-layout-sider-header {
-  padding-left: 30px;
+  padding-left: 12px;
   background-color: transparent;
 }
 .gx-mini-custom-sidebar.ant-layout-sider-lite .gx-layout-sider-header,
@@ -32686,7 +32687,7 @@ h6,
   border-right: 0 none;
 }
 .gx-layout-sider-scrollbar {
-  height: calc(100vh - 72px - 145px) !important;
+  height: calc(100vh - 172px - 145px) !important;
 }
 .framed-layout .gx-layout-sider-scrollbar {
   height: calc(100vh - 72px - 2 * 20px - 145px) !important;

@@ -50,6 +50,7 @@ const useProvideAuth = () => {
           const cookies = new Cookies();
           cookies.set('token', data.token.access_token);
           getAuthUser();
+          console.log(callbackFun);
           if (callbackFun) callbackFun();
         } else {
           fetchError(data.error);

@@ -3,18 +3,18 @@ import {
   LAYOUT_TYPE,
   LAYOUT_TYPE_FULL,
   NAV_STYLE,
-  NAV_STYLE_FIXED,
+  NAV_STYLE_NO_HEADER_EXPANDED_SIDEBAR,
   SET_PATH_NAME,
   THEME_TYPE,
-  THEME_TYPE_SEMI_DARK,
+  THEME_TYPE_LITE,
   UPDATE_RTL_STATUS
 } from "../../constants/ThemeSetting";
 
 const initialSettings = {
   navCollapsed: true,
-  navStyle: NAV_STYLE_FIXED,
+  navStyle: NAV_STYLE_NO_HEADER_EXPANDED_SIDEBAR,
   layoutType: LAYOUT_TYPE_FULL,
-  themeType: THEME_TYPE_SEMI_DARK,
+  themeType: THEME_TYPE_LITE,
   pathname: '',
   width: 1367,
   isDirectionRTL: false,
