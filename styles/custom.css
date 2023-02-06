@@ -1,0 +1,21 @@
+.logout_button{
+    padding: 10px 12px;
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 10px;
+}
+.logout_button:hover{
+cursor: pointer;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin: auto;
+}
+.social-icons-img{
+    width: 40px;
+}
+.social-icons-img:hover{
+    cursor: pointer;
+}

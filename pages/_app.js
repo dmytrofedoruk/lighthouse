@@ -5,6 +5,7 @@ import 'antd/dist/antd.css';
 
 import "../public/vendors/style";
 import "../styles/style.css"
+import "../styles/custom.css"
 import initStore from '../redux/store';
 import {Provider} from "react-redux";
 import LocaleProvider from "../app/core/LocaleProvider";

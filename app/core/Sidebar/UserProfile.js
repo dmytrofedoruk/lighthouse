@@ -1,6 +1,7 @@
 import React from "react";
 import {Avatar, Popover} from "antd";
 import {useAuth} from "../../../util/use-auth";
+import Link from "next/link";
 
 const UserProfile = () => {
   const {authUser, userSignOut} = useAuth();
@@ -21,8 +22,10 @@ const UserProfile = () => {
         <div className="gx-avatar-name gx-mt-2">{authUser.name}</div>
         <div className="gx-avatar-name gx-mt-2 gx-text-light">example@test.com</div>
       {/* </Popover> */}
-      {/* <button><i className="icon icon-setting"></i></button> */}
-      {/* <button></button> */}
+      <div className="gx-mt-3">
+        <button className="logout_button" style={{marginRight: "10px"}}><img style={{width: "13px"}} src="/images/settings.png"/></button>
+        <button className="logout_button" onClick={() => userSignOut()}><img style={{width: "13px"}} src="/images/logout.png"/></button>
+      </div>
     </div>
   ) : null
 };

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {Button, Checkbox, Form, Input} from "antd";
 import Link from 'next/link'
 import IntlMessages from "../../../util/IntlMessages";
@@ -14,6 +14,7 @@ const SignIn = (props) => {
   const onFinish = values => {
     userLogin(values);
   };
+
 
   return (
     // <div className="gx-app-login-wrap">
@@ -31,7 +32,7 @@ const SignIn = (props) => {
               <img alt="example" src="/images/logo.png"/>
             </div> */}
           </div>
-          <div className="gx-app-login-content">
+          <div className="gx-app-login-content" style={{height: "90%"}}>
              <div className="gx-app-logo gx-mb-2">
               <img style={{marginLeft: "-16px"}} alt="example" src="/images/logo.png"/>
             </div>
@@ -49,14 +50,14 @@ const SignIn = (props) => {
 
               <Form.Item
                 style={{fontWeight: "500"}}
-                initialValue="demo@example.com"
+                initialValue="admin@admin.com"
                 label="Email"
                 rules={[{required: true, message: 'The input is not valid E-mail!'}]} name="email">
                 <Input style={{borderRadius: "22px"}} placeholder="Email"/>
               </Form.Item>
               <Form.Item
                 style={{fontWeight: "500"}}
-                initialValue="demo#123"
+                initialValue="12345678"
                 label="Password"
                 rules={[{required: true, message: 'Please input your Password!'}]} name="password">
                 <Input style={{borderRadius: "22px"}} type="password" placeholder="Password"/>
@@ -71,6 +72,11 @@ const SignIn = (props) => {
                   Login
                 </Button>
               </Form.Item>
+              <div className="social-icons gx-mb-2">
+                <img className="social-icons-img" src="/images/google-plus.png" alt='facebook'/>
+                <img className="social-icons-img" src="/images/twitter.png" alt='twitter'/>
+                <img className="social-icons-img" src="/images/facebook.png" alt='Neature'/>
+              </div>
               {/* <div style={{textAlign: "center"}}> */}
                 <div className="header__center gx-text-light gx-mb-3">or</div> 
                 {/* <div class="line"></div>  */}

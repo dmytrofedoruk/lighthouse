@@ -31830,7 +31830,7 @@ h6,
 }
 .ant-layout.ant-layout-has-sider > .ant-layout {
   position: relative;
-  background: #f5f5f5;
+  background: #F9FAF5;
 }
 .framed-layout .ant-layout,
 .boxed-layout .ant-layout {
@@ -32687,7 +32687,7 @@ h6,
   border-right: 0 none;
 }
 .gx-layout-sider-scrollbar {
-  height: calc(100vh - 172px - 145px) !important;
+  height: calc(100vh - 192px - 145px) !important;
 }
 .framed-layout .gx-layout-sider-scrollbar {
   height: calc(100vh - 72px - 2 * 20px - 145px) !important;

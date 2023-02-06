@@ -42,15 +42,14 @@ const useProvideAuth = () => {
 
   const userLogin = (data, callbackFun) => {
     fetchStart();
-    httpClient.post('auth/login', data)
+    httpClient.post('login', data)
       .then(({data}) => {
-        if (data.result) {
+        if (data) {
           fetchSuccess();
-          httpClient.defaults.headers.common['Authorization'] = 'Bearer ' + data.token.access_token;
+          httpClient.defaults.headers.common['Authorization'] = 'Bearer ' + data.token;
           const cookies = new Cookies();
-          cookies.set('token', data.token.access_token);
+          cookies.set('token', data.token);
           getAuthUser();
-          console.log(callbackFun);
           if (callbackFun) callbackFun();
         } else {
           fetchError(data.error);
@@ -82,9 +81,9 @@ const useProvideAuth = () => {
 
   const userSignOut = (callbackFun) => {
     fetchStart();
-    httpClient.post('auth/logout')
+    httpClient.post('logout')
       .then(({data}) => {
-        if (data.result) {
+        if (data) {
           fetchSuccess();
           setAuthUser(false);
           httpClient.defaults.headers.common['Authorization'] = '';
@@ -102,10 +101,10 @@ const useProvideAuth = () => {
 
   const getAuthUser = () => {
     fetchStart();
-    httpClient.post("auth/me").then(({data}) => {
-      if (data.user) {
+    httpClient.get('me').then(({data}) => {
+      if (data) {
         fetchSuccess();
-        setAuthUser(data.user);
+        setAuthUser(data);
       } else {
         fetchError(data.error);
       }
