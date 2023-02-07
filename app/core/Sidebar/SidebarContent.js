@@ -77,22 +77,22 @@ const SidebarContent = () => {
             </Menu.Item>
 
             
-            <Menu.Item key="test">
-              <Link href="/test">
+            <Menu.Item key="page2">
+              <Link href="/page2">
                 <a><i className="icon icon-widgets"/><span>Page 2</span></a>
               </Link>
             </Menu.Item>
 
             
-            <Menu.Item key="sample2">
-              <Link href="/sample2">
+            <Menu.Item key="page3">
+              <Link href="/page3">
                 <a><i className="icon icon-widgets"/><span>Page 3</span></a>
               </Link>
             </Menu.Item>
 
             
-            <Menu.Item key="sample3">
-              <Link href="/sample3">
+            <Menu.Item key="page4">
+              <Link href="/page4">
                 <a><i className="icon icon-widgets"/><span>Page 4</span></a>
               </Link>
             </Menu.Item>

@@ -20,13 +20,13 @@ const TrafficRaiseCard = () => {
       <Row className="gx-align-items-center">
         <Col lg={12} md={12} sm={24} xs={24}>
           <div className="gx-actchart gx-px-3">
-            <h2 className="gx-fs-xxxl gx-font-weight-medium gx-mb-1 gx-text-black">07% <i
-              className="icon icon-menu-up gx-fs-sm"/>
+          <p className="gx-mb-3 gx-text-light">Lorem ipsum</p>
+            <h2 className="gx-fs-xxxl gx-font-weight-medium gx-mb-1 gx-text-black">950.22
             </h2>
-            <p className="gx-mb-0">Traffic raise</p>
+           
           </div>
         </Col>
-        <Col lg={12} md={12} sm={24} xs={24}>
+        {/* <Col lg={12} md={12} sm={24} xs={24}>
           <ResponsiveContainer width="100%" height={100}>
             <LineChart data={data}
                        margin={{top: 5, right: 5, left: 5, bottom: 5}}>
@@ -34,7 +34,7 @@ const TrafficRaiseCard = () => {
               <Line dataKey="traffic" stroke="#038FDE" strokeWidth={2}/>
             </LineChart>
           </ResponsiveContainer>
-        </Col>
+        </Col> */}
       </Row>
     </Widget>
   );

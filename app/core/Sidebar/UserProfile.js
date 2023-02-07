@@ -23,7 +23,7 @@ const UserProfile = () => {
         <div className="gx-avatar-name gx-mt-2 gx-text-light">example@test.com</div>
       {/* </Popover> */}
       <div className="gx-mt-3">
-        <button className="logout_button" style={{marginRight: "10px"}}><img style={{width: "13px"}} src="/images/settings.png"/></button>
+        <button className="logout_button" style={{marginRight: "10px"}}><Link href="/settings"  ><img style={{width: "13px"}} src="/images/settings.png"/></Link></button>
         <button className="logout_button" onClick={() => userSignOut()}><img style={{width: "13px"}} src="/images/logout.png"/></button>
       </div>
     </div>
