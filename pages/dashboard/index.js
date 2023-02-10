@@ -6,7 +6,7 @@ const TabPane = Tabs.TabPane;
 
 const Dashboard = () => {
 	const callback = (key) => {
-	};
+};
 
 	return (
 		<div>
@@ -21,13 +21,19 @@ const Dashboard = () => {
 					</Button>
 				</div>	
 			</div>
-			<Tabs defaultActiveKey="1" onChange={callback}>
+			<Tabs defaultActiveKey="3" onChange={callback}>
 				<TabPane tab="Lorem" key="1"></TabPane>
 				<TabPane tab="Ipsum" key="2"></TabPane>
 				<TabPane tab="Dolor" key="3"></TabPane>
 			</Tabs>
 			<div className='search-bar'>
-				<i className="icon icon-search gx-mr-2"/><span className='gx-text-light'>Search</span>
+				<img style={{width: "15px"}} src='/images/search.svg'/><span className='gx-ml-2 gx-text-light'>Search</span>
+				<div style={{float: "right"}} className="gx-mr-4">
+					<img style={{width: "13px"}} src='/images/share.svg'/><span className='gx-ml-1'>Share</span>
+				</div>
+				<div style={{float: "right"}} className="gx-mr-4">
+					<img style={{width: "16px"}} src='/images/sortby.svg'/><span className='gx-ml-1'>Sort By</span>
+				</div>
 			</div>
 
 			<Row className='gx-mt-4'>

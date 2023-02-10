@@ -72,13 +72,13 @@ const SignIn = (props) => {
                   Login
                 </Button>
               </Form.Item>
-              <div className="social-icons gx-mb-2">
+              <div className="social-icons gx-mb-3">
                 <img className="social-icons-img" src="/images/google-plus.png" alt='facebook'/>
                 <img className="social-icons-img" src="/images/twitter.png" alt='twitter'/>
                 <img className="social-icons-img" src="/images/facebook.png" alt='Neature'/>
               </div>
               {/* <div style={{textAlign: "center"}}> */}
-                <div className="header__center gx-text-light gx-mb-3">or</div> 
+                <div className="header__center gx-text-light gx-mb-4">or</div> 
                 {/* <div class="line"></div>  */}
               {/* </div> */}
               <Form.Item>

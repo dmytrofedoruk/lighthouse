@@ -46,8 +46,8 @@ const SidebarContent = () => {
   const selectedKeys = router.pathname.substr(1) || 'dashboard';
   const defaultOpenKeys = selectedKeys.split('/')[1];
 
-  console.log(defaultOpenKeys);
-  console.log(selectedKeys);
+  // console.log(defaultOpenKeys);  
+  // console.log(selectedKeys);
 
   return (
     <React.Fragment>
@@ -77,9 +77,9 @@ const SidebarContent = () => {
             </Menu.Item>
 
             
-            <Menu.Item key="page2">
-              <Link href="/page2">
-                <a><i className="icon icon-widgets"/><span>Page 2</span></a>
+            <Menu.Item key="user-management">
+              <Link href="/user-management">
+                <a><i className="icon icon-widgets"/><span>User Management</span></a>
               </Link>
             </Menu.Item>
 

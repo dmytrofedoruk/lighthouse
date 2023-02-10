@@ -130,8 +130,8 @@ const useProvideAuth = () => {
         }
         setLoadingUser(false);
       }).catch(function (error) {
-        cookies.remove('token');
-        httpClient.defaults.headers.common['Authorization'] = '';
+        // cookies.remove('token');
+        // httpClient.defaults.headers.common['Authorization'] = '';
         setLoadingUser(false);
       });
     }, []

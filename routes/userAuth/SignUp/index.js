@@ -36,7 +36,7 @@ const SignUp = (props) => {
           <img alt="example" src="/images/logo.png"/>
         </div> */}
       </div>
-      <div className="gx-app-login-content" style={{height: "100%"}}>
+      <div className="gx-app-login-content" style={{height: "100%", overflow: "auto"}}>
          <div className="gx-app-logo gx-mb-2">
           <img style={{marginLeft: "-16px"}} alt="example" src="/images/logo.png"/>
         </div>
@@ -97,6 +97,12 @@ const SignUp = (props) => {
               Sign Up
             </Button>
           </Form.Item>
+
+          <div className="social-icons gx-mb-3">
+                <img className="social-icons-img" src="/images/google-plus.png" alt='facebook'/>
+                <img className="social-icons-img" src="/images/twitter.png" alt='twitter'/>
+                <img className="social-icons-img" src="/images/facebook.png" alt='Neature'/>
+          </div>
           {/* <div style={{textAlign: "center"}}> */}
             <div className="header__center gx-text-light gx-mb-3">Already have an account?</div> 
             {/* <div class="line"></div>  */}
