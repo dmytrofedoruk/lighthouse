@@ -669,6 +669,804 @@
       "file": "static/chunks/1.js"
     }
   ],
+  "../routes/userAuth/SignUp": [
+    {
+      "id": "./node_modules/antd/dist/antd.css",
+      "file": "static/css/styles.chunk.css"
+    },
+    {
+      "id": 1,
+      "file": "static/css/styles.chunk.css"
+    },
+    {
+      "id": "./public/vendors/flag/sprite-flags-24x24.css",
+      "file": "static/css/styles.chunk.css"
+    },
+    {
+      "id": 2,
+      "file": "static/css/styles.chunk.css"
+    },
+    {
+      "id": "./public/vendors/gaxon/styles.css",
+      "file": "static/css/styles.chunk.css"
+    },
+    {
+      "id": 3,
+      "file": "static/css/styles.chunk.css"
+    },
+    {
+      "id": "./public/loader.css",
+      "file": "static/css/styles.chunk.css"
+    },
+    {
+      "id": 4,
+      "file": "static/css/styles.chunk.css"
+    },
+    {
+      "id": "./public/vendors/noir-pro/styles.css",
+      "file": "static/css/styles.chunk.css"
+    },
+    {
+      "id": 5,
+      "file": "static/css/styles.chunk.css"
+    },
+    {
+      "id": "./styles/style.css",
+      "file": "static/css/styles.chunk.css"
+    },
+    {
+      "id": 6,
+      "file": "static/css/styles.chunk.css"
+    },
+    {
+      "id": "./styles/custom.css",
+      "file": "static/css/styles.chunk.css"
+    },
+    {
+      "id": 7,
+      "file": "static/css/styles.chunk.css"
+    },
+    {
+      "id": "./routes/userAuth/SignUp/style.css",
+      "file": "static/css/styles.chunk.css"
+    },
+    {
+      "id": 8,
+      "file": "static/css/styles.chunk.css"
+    },
+    {
+      "id": "./node_modules/antd/dist/antd.css",
+      "file": "static/chunks/styles.js"
+    },
+    {
+      "id": 1,
+      "file": "static/chunks/styles.js"
+    },
+    {
+      "id": "./public/vendors/flag/sprite-flags-24x24.css",
+      "file": "static/chunks/styles.js"
+    },
+    {
+      "id": 2,
+      "file": "static/chunks/styles.js"
+    },
+    {
+      "id": "./public/vendors/gaxon/styles.css",
+      "file": "static/chunks/styles.js"
+    },
+    {
+      "id": 3,
+      "file": "static/chunks/styles.js"
+    },
+    {
+      "id": "./public/loader.css",
+      "file": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "file": "static/chunks/styles.js"
+    },
+    {
+      "id": "./public/vendors/noir-pro/styles.css",
+      "file": "static/chunks/styles.js"
+    },
+    {
+      "id": 5,
+      "file": "static/chunks/styles.js"
+    },
+    {
+      "id": "./styles/style.css",
+      "file": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "file": "static/chunks/styles.js"
+    },
+    {
+      "id": "./styles/custom.css",
+      "file": "static/chunks/styles.js"
+    },
+    {
+      "id": 7,
+      "file": "static/chunks/styles.js"
+    },
+    {
+      "id": "./routes/userAuth/SignUp/style.css",
+      "file": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "file": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/262.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/CanonicalizeLocaleList.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/CanonicalizeTimeZoneName.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/CoerceOptionsToObject.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/DefaultNumberOption.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/GetNumberOption.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/GetOption.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/GetOptionsObject.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/IsSanctionedSimpleUnitIdentifier.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/IsValidTimeZoneName.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/IsWellFormedCurrencyCode.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/IsWellFormedUnitIdentifier.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/NumberFormat/ComputeExponent.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/NumberFormat/ComputeExponentForMagnitude.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/NumberFormat/CurrencyDigits.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/NumberFormat/FormatNumericToParts.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/NumberFormat/FormatNumericToString.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/NumberFormat/InitializeNumberFormat.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/NumberFormat/PartitionNumberPattern.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/NumberFormat/SetNumberFormatDigitOptions.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/NumberFormat/SetNumberFormatUnitOptions.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/NumberFormat/ToRawFixed.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/NumberFormat/ToRawPrecision.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/NumberFormat/digit-mapping.generated.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/NumberFormat/format_to_parts.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/PartitionPattern.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/SupportedLocales.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/data.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/index.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/regex.generated.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/types/date-time.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/types/displaynames.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/types/list.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/types/number.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/types/plural-rules.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/types/relative-time.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/lib/utils.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/ecma402-abstract/node_modules/tslib/tslib.es6.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/fast-memoize/lib/index.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/icu-messageformat-parser/lib/date-time-pattern-generator.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/icu-messageformat-parser/lib/error.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/icu-messageformat-parser/lib/index.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/icu-messageformat-parser/lib/parser.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/icu-messageformat-parser/lib/regex.generated.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/icu-messageformat-parser/lib/time-data.generated.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/icu-messageformat-parser/lib/types.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/icu-messageformat-parser/node_modules/tslib/tslib.es6.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/icu-skeleton-parser/lib/date-time.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/icu-skeleton-parser/lib/index.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/icu-skeleton-parser/lib/number.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/icu-skeleton-parser/lib/regex.generated.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/icu-skeleton-parser/node_modules/tslib/tslib.es6.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl-localematcher/lib/abstract/BestAvailableLocale.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl-localematcher/lib/abstract/BestFitMatcher.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl-localematcher/lib/abstract/CanonicalizeLocaleList.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl-localematcher/lib/abstract/LookupMatcher.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl-localematcher/lib/abstract/LookupSupportedLocales.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl-localematcher/lib/abstract/ResolveLocale.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl-localematcher/lib/abstract/UnicodeExtensionValue.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl-localematcher/lib/abstract/utils.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl-localematcher/lib/index.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl/lib/index.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl/lib/src/create-intl.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl/lib/src/dateTime.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl/lib/src/displayName.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl/lib/src/error.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl/lib/src/list.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl/lib/src/message.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl/lib/src/number.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl/lib/src/plural.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl/lib/src/relativeTime.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl/lib/src/types.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl/lib/src/utils.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/@formatjs/intl/node_modules/tslib/tslib.es6.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/index.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/adapters/xhr.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/axios.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/cancel/Cancel.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/cancel/CancelToken.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/cancel/isCancel.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/Axios.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/InterceptorManager.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/buildFullPath.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/createError.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/dispatchRequest.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/enhanceError.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/mergeConfig.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/settle.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/transformData.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/defaults.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/bind.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/buildURL.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/combineURLs.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/cookies.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/isAbsoluteURL.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/isURLSameOrigin.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/normalizeHeaderName.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/parseHeaders.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/spread.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/utils.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/cookie/index.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/intl-messageformat/lib/index.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/intl-messageformat/lib/src/core.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/intl-messageformat/lib/src/error.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/intl-messageformat/lib/src/formatters.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/intl-messageformat/node_modules/tslib/tslib.es6.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/link.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/normalize-trailing-slash.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/router.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/with-router.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/compiled/path-to-regexp/index.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/mitt.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router-context.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/router.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/utils/escape-path-delimiters.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/utils/format-url.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/utils/is-dynamic.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/utils/parse-relative-url.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/utils/path-match.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/utils/prepare-destination.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/utils/querystring.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/utils/resolve-rewrites.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/utils/route-matcher.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/utils/route-regex.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/utils.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/server/denormalize-page-path.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/link.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/node_modules/@babel/runtime/helpers/arrayWithHoles.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/node_modules/@babel/runtime/helpers/asyncToGenerator.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/node_modules/@babel/runtime/helpers/construct.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/node_modules/@babel/runtime/helpers/isNativeReflectConstruct.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/node_modules/@babel/runtime/helpers/nonIterableRest.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/node_modules/@babel/runtime/helpers/setPrototypeOf.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/node_modules/@babel/runtime/helpers/slicedToArray.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/node_modules/@babel/runtime/helpers/typeof.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/next/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-cookie/es6/Cookies.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-cookie/es6/CookiesContext.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-cookie/es6/CookiesProvider.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-cookie/es6/index.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-cookie/es6/types.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-cookie/es6/useCookies.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-cookie/es6/utils.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-cookie/es6/withCookies.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-intl/lib/index.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-intl/lib/src/components/createFormattedComponent.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-intl/lib/src/components/dateTimeRange.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-intl/lib/src/components/injectIntl.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-intl/lib/src/components/message.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-intl/lib/src/components/plural.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-intl/lib/src/components/provider.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-intl/lib/src/components/relative.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-intl/lib/src/components/useIntl.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-intl/lib/src/utils.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/react-intl/node_modules/tslib/tslib.es6.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/universal-cookie/es6/Cookies.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/universal-cookie/es6/index.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./node_modules/universal-cookie/es6/utils.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./routes/userAuth/SignUp/index.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./util/Api.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./util/IntlMessages.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./util/use-auth.js",
+      "file": "static/chunks/3.js"
+    }
+  ],
   "./dev/noop": [
     {
       "id": "./node_modules/next/dist/client/dev/noop.js",

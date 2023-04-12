@@ -60,16 +60,26 @@ const useProvideAuth = () => {
       });
   };
 
-  const userSignup = (data, callbackFun) => {
+  const userSignup = (values, callbackFun) => {
     fetchStart();
-    httpClient.post('auth/register', data)
+ 
+    httpClient.post('https://reminiscent-chill-actress.glitch.me/signup', values)
       .then(({data}) => {
-        if (data.result) {
+        // console.log(data.token);
+        if (data) {
           fetchSuccess();
-          httpClient.defaults.headers.common['Authorization'] = 'Bearer ' + data.token.access_token;
+          // console.log(values.subscription === 'yearly');
+          if(values.subscription === 'yearly'){
+            window.location.href = 'https://lighthouse-mauve.vercel.app/signup?subscriptionType=yearly'
+          }else{
+            console.log('monthly');
+            window.location.href = 'https://lighthouse-mauve.vercel.app/signup?subscriptionType=monthly'
+          }
+        
+          httpClient.defaults.headers.common['Authorization'] = 'Bearer ' + data.token;
           const cookies = new Cookies();
-          cookies.set('token', data.token.access_token);
-          if (callbackFun) callbackFun();
+          cookies.set('token', data.token);
+          // if (callbackFun) callbackFun();
         } else {
           fetchError(data.error);
         }

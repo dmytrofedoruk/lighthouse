@@ -1,12 +1,14 @@
 import React from "react";
-import {Button, Checkbox, Form, Input} from "antd";
+import {Button, Checkbox, Form, Input, Radio} from "antd";
 import Link from 'next/link'
-
+import "./style.css";
 import IntlMessages from "../../../util/IntlMessages";
 import {useAuth} from "../../../util/use-auth";
 import CircularProgress from "../../../app/components/CircularProgress";
 
 const FormItem = Form.Item;
+const RadioButton = Radio.Button;
+const RadioGroup = Radio.Group;
 
 const SignUp = (props) => {
   const {isLoading, userSignup, getAuthUser} = useAuth();
@@ -15,7 +17,14 @@ const SignUp = (props) => {
   };
 
   const onFinish = values => {
-    userSignup(values, () => {
+    let data = {
+      name : values.fname+ ' ' +values.lname,
+      email: values.email,
+      password : values.password,
+      subscription:  values.subscription
+    }
+    // console.log(data);
+    userSignup(data, () => {
       getAuthUser();
     });
   };
@@ -54,35 +63,35 @@ const SignUp = (props) => {
 
           <Form.Item
             style={{fontWeight: "500", marginBottom: "2px"}}
-            // initialValue="demo@example.com"
+            initialValue="Dmytro"
             label="First Name"
             name="fname">
-            <Input style={{borderRadius: "22px"}} placeholder="Email"/>
+            <Input style={{borderRadius: "22px"}} placeholder=""/>
           </Form.Item>
           <Form.Item
             style={{fontWeight: "500", marginBottom: "2px"}}
-            // initialValue="demo@example.com"
+            initialValue="Fedoruk"
             label="Last Name"
             name="lname">
             <Input style={{borderRadius: "22px"}} placeholder="Email"/>
           </Form.Item>
           <Form.Item
             style={{fontWeight: "500", marginBottom: "2px"}}
-            // initialValue="demo@example.com"
+            initialValue="dmytro.fedoru@gmail.com"
             label="Email"
             rules={[{required: true, message: 'The input is not valid E-mail!'}]} name="email">
             <Input style={{borderRadius: "22px"}} placeholder="Email"/>
           </Form.Item>
           <Form.Item
             style={{fontWeight: "500", marginBottom: "2px"}}
-            // initialValue="demo#123"
+            initialValue="test123"
             label="Password"
             rules={[{required: true, message: 'Please input your Password!'}]} name="password">
             <Input style={{borderRadius: "22px"}} type="password" placeholder="Password"/>
           </Form.Item>
           <Form.Item
-            style={{fontWeight: "500"}}
-            // initialValue="demo#123"
+            style={{fontWeight: "500", marginBottom: "2px"}}
+            initialValue="test123"
             label="Repeat Password"
              name="password">
             <Input style={{borderRadius: "22px"}} type="password" placeholder="Password"/>
@@ -93,6 +102,12 @@ const SignUp = (props) => {
               <a className="gx-login-form-forgot gx-text-light" style={{float: "right"}}>Forgot password?</a></Link>
           </Form.Item> */}
           <Form.Item>
+          <Form.Item style={{textAlign: "start"}} name="subscription">
+            <RadioGroup defaultValue="monthly">
+              <Radio value="monthly">Monthly</Radio>
+              <Radio value="yearly">Yearly</Radio>
+            </RadioGroup>
+          </Form.Item>
             <Button className="gx-mb-0 design-button" style={{background: "#D3F36B"}} htmlType="submit">
               Sign Up
             </Button>

@@ -1,0 +1,32 @@
+
+@media screen and (max-width: 575px){
+    .gx-app-login-main-content {
+        display: block !important;
+        overflow: auto !important;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .gx-app-logo-content {
+        width: 100%;
+        padding: 40px 0px 40px;
+        height: auto;
+    }
+    .gx-app-logo-wid {
+        padding: 22px 29px;
+        text-align: center;
+        height: auto;
+    }
+    .gx-app-logo-wid h1 {
+        font-size: 35px !important;
+    }
+
+    .gx-app-login-content {
+        text-align: center;
+        padding: 20px 42px !important;
+    }
+
+    .ant-form-item{
+        margin-bottom: 12px !important;
+    }
+}

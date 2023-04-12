@@ -36747,6 +36747,12 @@ fieldset[disabled] a.gx-btn {
   left: auto;
   z-index: 2;
 }
+.ant-radio-inner::after{
+  background-color: #D3F36B !important;
+}
+.ant-radio-inner {
+  border-color: #D3F36B !important; 
+}
 /*Gxtl Zigzag Style*/
 .gx-timeline-zigzag .gx-timeline-item {
   padding-left: 150px;
